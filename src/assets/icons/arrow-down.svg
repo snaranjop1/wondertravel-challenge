@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.588" height="26.546" viewBox="0 0 35.588 26.546">
+  <defs>
+    <filter id="Icon_Keyboard_Arrow_-_Up_Dark" x="0" y="0" width="35.588" height="26.546" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.494"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_Keyboard_Arrow_-_Up_Dark)">
+    <path id="Icon_Keyboard_Arrow_-_Up_Dark-2" data-name="Icon / Keyboard Arrow - Up / Dark" d="M20.836,14.546,11.794,5.5,2.752,14.546,0,11.794,11.794,0,23.588,11.794Z" transform="translate(29.59 17.55) rotate(180)" fill="#ff6549"/>
+  </g>
+</svg>
