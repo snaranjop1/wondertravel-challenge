@@ -8,6 +8,7 @@ import hotelIcon from "../../assets/icons/hotel.svg";
 import offroadIcon from "../../assets/icons/off-road.svg";
 import arrowDown from "../../assets/icons/arrow-down.svg";
 import whatsappImg from "../../assets/images/whatsapp.png";
+import patternBg from "../../assets/images/pattern.png";
 import "./Banner.css";
 
 function Banner() {
@@ -16,6 +17,7 @@ function Banner() {
       <div className="logo-container">
         <img src={logo} alt="Wonder travel logo" className="logo" />
       </div>
+      <img src={patternBg} alt="pattern" className="pattern-bg" />
       <div className="info-container">
         <div className="info">
           <h1 className="banner-title">Guainía y Cerros de Mavicure</h1>
