@@ -21,7 +21,7 @@ function Banner() {
       <div className="info-container">
         <div className="info">
           <h1 className="banner-title">Guainía y Cerros de Mavicure</h1>
-          <hr class="divider" />
+          <hr className="divider" />
           <p className="banner-text">
             Viaje por los Cerros de Mavicure y sus alrededores
           </p>
