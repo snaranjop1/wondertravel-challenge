@@ -18,37 +18,39 @@ function Banner() {
       </div>
       <div className="info-container">
         <div className="info">
-          <h1>Guainía y Cerros de Mavicure</h1>
+          <h1 className="banner-title">Guainía y Cerros de Mavicure</h1>
           <hr class="divider" />
-          <p>Viaje por los Cerros de Mavicure y sus alrededores</p>
+          <p className="banner-text">
+            Viaje por los Cerros de Mavicure y sus alrededores
+          </p>
           <div className="duration">
             <img src={experienceIcon} alt="Experience icon" />
-            <h2>4 días, 3 noches*</h2>
+            <h2 className="duration-text">4 días, 3 noches*</h2>
           </div>
           <div className="location">
             <img src={location} alt="Location" />
-            <p>Orinoquía (Guainía, Colombia)</p>
+            <p className="banner-text">Orinoquía (Guainía, Colombia)</p>
           </div>
           <div className="perks">
-            <p className="perk">
+            <p className="perk banner-text">
               <img src={adventureIcon} alt="Adventure" />
               Experiencias cautivantes
             </p>
-            <p className="perk">
+            <p className="perk banner-text">
               <img src={foodIcon} alt="Food" />
               Todas las comidas incluidas
             </p>
-            <p className="perk">
+            <p className="perk banner-text">
               <img src={hotelIcon} alt="Hotel" />
               Alojamientos únicos
             </p>
-            <p className="perk">
+            <p className="perk banner-text">
               <img src={offroadIcon} alt="Transport" />
               Transporte terrestre y fluvial en el Guainía
             </p>
           </div>
           <div className="book">
-            <p>Whatsapp:</p>
+            <p className="banner-text">Whatsapp:</p>
             <button className="book-btn">
               <img src={whatsappImg} alt="Whatsapp icon" />
               Reservar / información

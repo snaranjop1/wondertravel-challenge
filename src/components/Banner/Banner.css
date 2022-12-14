@@ -41,9 +41,9 @@
   max-width: 500px;
 }
 
-h1 {
+.banner-title {
   font-size: 38px;
-  line-height: 38px;
+  line-height: 36px;
   font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   color: #FFFFFF;
@@ -60,7 +60,7 @@ h1 {
   max-width: 260px;
 }
 
-p {
+.banner-text {
   font-size: 14px;
   color: #FFFFFF;
   text-align: center;
@@ -79,7 +79,7 @@ p {
   width: 90%;
 }
 
-h2 {
+.duration-text {
   font-size: 18px;
   color: #FFFFFF;
   text-align: center;
