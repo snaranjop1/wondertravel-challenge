@@ -1,5 +1,6 @@
 import React from "react";
 import Illustration1 from "../Illustration1/Illustration1";
+import Itinerary from "../Itinerary/Itinerary";
 import "./MainContent.css";
 
 function MainContent() {
@@ -11,6 +12,7 @@ function MainContent() {
           lugares mágicos de Colombia
         </h1>
         <Illustration1 />
+        <Itinerary />
       </div>
     </main>
   );
