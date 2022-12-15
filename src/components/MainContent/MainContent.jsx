@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../Contact/Contact";
 import Illustration1 from "../Illustration1/Illustration1";
 import Itinerary from "../Itinerary/Itinerary";
 import "./MainContent.css";
@@ -13,6 +14,7 @@ function MainContent() {
         </h1>
         <Illustration1 />
         <Itinerary />
+        <Contact />
       </div>
     </main>
   );
