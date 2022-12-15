@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/banner-logo.png";
-import experienceIcon from "../../assets/icons/experience.svg";
+import experienceIcon from "../../assets/icons/experience-orange.svg";
 import location from "../../assets/icons/location.svg";
 import adventureIcon from "../../assets/icons/adventure.svg";
 import foodIcon from "../../assets/icons/food.svg";
