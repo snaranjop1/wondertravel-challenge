@@ -17,56 +17,50 @@
   - Se toma entonces cada día del itinerario como un array de steps:
     ```json
     [
-    	{ "title": "Inicio", "description": "Ciudad de Origen", "type": "" },
-    	{
-    	  "title": "",
-    	  "description": "Llegada a Pto. Inírida",
-    	  "type": "",
-    	},
-    	{
-    	  "title": "",
-    	  "description":
-    	    "Vuelo (1.5h) (No incluido, lo podemos organizar por ti)",
-    	  "type": "plane",
-    	},
-    	{
-    	  "title": "Los Cerros Sagrados",
-    	  "subtitle": "Travesía en lancha (2h) desde Puerto Inírida",
-    	  "description":
-    	    "Visita a los Cerros de Mavicure, Pajarito y Mono. Visita a las comunidades del Remanso y Venado",
-    	  "type": "experience",
-    	},
-    	...
+      { "title": "Inicio", "description": "Ciudad de Origen", "type": "" },
+      {
+        "title": "",
+        "description": "Llegada a Pto. Inírida",
+        "type": ""
+      },
+      {
+        "title": "",
+        "description": "Vuelo (1.5h) (No incluido, lo podemos organizar por ti)",
+        "type": "plane"
+      },
+      {
+        "title": "Los Cerros Sagrados",
+        "subtitle": "Travesía en lancha (2h) desde Puerto Inírida",
+        "description": "Visita a los Cerros de Mavicure, Pajarito y Mono. Visita a las comunidades del Remanso y Venado",
+        "type": "experience"
+      }
     ]
     ```
   - Posteriormente se toma entonces que el itinerario es un array de arrays de steps, de manera que el orden de este array indica el orden de los días del itinerario
     ```json
     {
-    	itinerary: [
-    		[
-    			{ "title": "Inicio", "description": "Ciudad de Origen", "type": "" },
-    			{
-    			  "title": "",
-    			  "description": "Llegada a Pto. Inírida",
-    			  "type": "",
-    			},
-    			....
-    		],
-    		[
-    			{
+      "itinerary": [
+        [
+          { "title": "Inicio", "description": "Ciudad de Origen", "type": "" },
+          {
+            "title": "",
+            "description": "Llegada a Pto. Inírida",
+            "type": ""
+          }
+        ],
+        [
+          {
             "title": "Ascenso al Cerro Mavicure",
             "description": "Para deleitarse con los paisajes del escudo guayanés",
-            type: "experience",
+            "type": "experience"
           },
           {
             "title": "Caño San Joaquín",
-            "description":
-              "El “oasis del Guainía”, te estremecerá con sus aguas color naranja",
-            "type": "experience",
-          },
-    			...
-    		]
-    	]
+            "description": "El “oasis del Guainía”, te estremecerá con sus aguas color naranja",
+            "type": "experience"
+          }
+        ]
+      ]
     }
     ```
   - Finalmente obtenemos la siguiente estructura:
